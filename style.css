@@ -151,34 +151,130 @@ font-weight: 500;
 }
 .section-items{
 width: 30%;
-height: 300px;
+height: 350px;
 background-color:rgb(199, 231, 199);
-margin: 0 0 0 3%;
-padding: 20px 15px; 
-border: 1px solid;
+margin: 0 20px 0 20px;
+padding: 30px 15px; 
+border: 1px;
+border-radius: 10px
 
+}
+
+.background-one{
+    background-color: antiquewhite;
+}
+.background-two{
+    background-color: bisque;
 }
 .section-items img{
     font-size: 10px ;
+    margin-bottom: 30px;
 
 }
 .section-items h2{
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 600;
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .section-items p{
     color:slategrey;
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
+    margin-bottom: 80px;
+
 }
+.form-box{
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    width:60%;
+    padding: 90px 100px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 22%;
+}
+.email{
+    
+    font-size: 20px;
+    width: 280px;
+    height: 50px;
+    border: none;
+
+}
+.subscribe{
+    background-color: coral;
+    color: white;
+    border: none;
+    font-size: 20px;
+    width: 157px;
+    height: 50px;
+    padding: 13px 25px;
+    font-weight: 600;
+    text-decoration: none;
+    
+
+}
+
 
 
 
 
 /* ================ end section three================== */
+
+/* ==================start section four=============== */
+.section-four{
+    /* background-color:#0D394D; */
+    text-align: center;
+    margin-top: 100px;
+}
+.section-four h3{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+   
+}
+.section-four p{
+    font-size: 20px;
+    color:#0D394D;
+    margin-bottom: 20px;
+
+}
+.img-section {
+    display: flex;
+    width: 60%; 
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+.img-section img{
+    width: 53%;
+    height: 400px;
+    padding: 20px 15px;
+    
+    
+}
+
+/* ==================end section four=============== */
+
+/* ================ start section five================== */
+.section-five{
+    text-align: center;
+    margin-top: 100px;
+}
+.section-five h2{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.section-five p{
+    font-size: 22px;
+    color:saddlebrown;
+    margin-top: 25px;
+}
+/* ================ end section five================== */
 
 /* ==================footer start========================== */
 .footer{
