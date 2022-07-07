@@ -48,9 +48,6 @@ font-weight: 500;
 
 /* ================ start section two================== */
 
-.section-two{
-
-}
 .section-container-two{
    text-align: center; 
 }
@@ -65,17 +62,10 @@ font-weight: 500;
     font-size: 20px;
     font-weight: 500;
 }
-.nav{
-    
-}
-
 .nav ul{
     display: inline-block;
     text-align: center;
-   list-style: none;
-   
-
-   
+   list-style: none;  
 }
 .nav ul li{
     float: left;
@@ -85,14 +75,11 @@ font-weight: 500;
   
     background-color: whitesmoke;
     padding: 25px 25px;
-    border-radius: 10px;
-
-    
+    border-radius: 10px; 
 }
 .nav ul li a{
     text-decoration: none;
 }
-
 .tometo-li{
     
     background-color: rgb(232, 167, 48);
@@ -188,12 +175,13 @@ border-radius: 10px
 .form-box{
     background-color:antiquewhite;
     display: flex;
-    justify-content: center;
     width:60%;
     padding: 90px 100px;
     text-align: center;
     margin-top: 20px;
     margin-left: 22%;
+    padding-left: 12%;
+
 }
 .email{
     
